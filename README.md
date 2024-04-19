@@ -41,7 +41,7 @@ app_template.py is the flask application that first imports the necessary librar
 
 ## 🍟Installation Steps
 i. Clone the repository using the following command: <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; git clone https://github.com/ <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; git clone https://github.com/chandrasekarjeevitha/DAB111_poject_Group_13 <br>
 ii. Execute the following command to install all the necessary packages: <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; pip install -r requirements.txt <br>
 iii. Run app_template.py and ctrl + click the link generated to access the webpage.  <br>
