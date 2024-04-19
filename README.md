@@ -7,7 +7,7 @@
 **Student Details:** <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0856358 - Gopikakrishna <br>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0856328 - Jeevitha Chandrasekar <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0850007 - Vishnu Mohan <br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 0856963 - Vishnu Mohan <br>
 
 ## 🍟About
 The website is created using Flask to display the data abour restaurents in Swiggy (an online food ordering and delivery platform). The data is fetched from a SQLite database. The website displays one  restaurent from each  city. 
