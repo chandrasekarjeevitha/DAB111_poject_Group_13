@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website</title>
+    <style>
+
+        .container {
+            position: relative;
+            width: 100%; /* Set the width of the container */
+            margin: 0 auto; /* Center the container horizontally */
+        }
+
+        .container img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%; /* Set the image width to 100% of the container width */
+            max-height: 300px; /* Maintain the aspect ratio */
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            background-color: #ffaa00; /* Blue color */
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-right: 10px;
+        }
+
+        .button:last-child {
+            margin-right: 0; /* Remove margin-right from the last button */
+        }
+
+        .button:hover {
+            background-color: #e4931ad7; /* Darker blue color */
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .content {
+            text-align: center;
+            margin-top: 350px;
+        }
+
+        h2 {
+            color: #333; /* Black color */
+        }
+
+        p {
+            color: #666; /* Dark gray color */
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="button-container">
+        <a href="{{ url_for('about') }}" class="button">About</a>
+        <a href="{{ url_for('data') }}" class="button">Data</a>
+    </div>
+
+    <div class="container">
+    <img src="{{ url_for('static', filename='images/food_image.jpg') }}" alt="Food image">
+    </div>
+    <div class="content">
+        <h2>Swiggy: Order Food Online from India's Best Food Delivery Service</h2>
+        <p>The Swiggy Restaurant Dataset is a comprehensive collection of data related to restaurants available on the Swiggy food delivery platform.</p>
+        <p></p>This dataset provides valuable information about various aspects of restaurants, enabling users to explore, analyze, and gain insights into the restaurant landscape on Swiggy.</p>
+    </div>
+</body>
+</html>

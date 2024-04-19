@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Data Page</title>
+        <style>
+            header {
+                background-color: #007bff;
+                padding: 20px;
+                text-align: center;
+            }
+
+            .heading {
+                color: #f5ac04;
+                font-size: 36px;
+                font-weight: bold;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+                text-shadow: 2px 2px 4px rgba(247, 191, 5, 0.3);
+            }
+            body {
+                font-family: 'Roboto', sans-serif;
+                background-color: #f8f9fa;
+                margin: 0;
+                padding: 0;
+            }
+
+            .container {
+                width: 80%; 
+                margin: 0 auto;
+                text-align: center;
+            }
+    table {
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid #000; /* Set border for the table */
+    }
+
+    th, td {
+        border: 1px solid #000; /* Set border for table cells */
+        padding: 8px;
+        text-align: left;
+    }
+</style>
+    </head>
+    <body>
+        <div class="container">
+        <h1 class="heading">One Restaurant From Each City</h1>
+        </div>
+    <body>
+        <table>
+            <thead>
+                <tr>
+				<th>ID</th>
+				<th>AREA</th>
+				<th>CITY</th>
+				<th>RESTAURANT</th>
+				<th>PRICE</th>
+				<th>RATING</th>
+				<th>TOTAL_RATING</th>
+				<th>FOOD_TYPE</th>
+				<th>ADDRESS</th>
+				<th>DELIVERY_TIME</th>
+				</tr>
+            </thead>
+            <tbody>
+                {% for s in online_orders%}
+					<tr>
+					<td>{{ s[0] }}</td>
+					<td>{{ s[1] }}</td>
+					<td>{{ s[2] }}</td>
+					<td>{{ s[3] }}</td>
+					<td>{{ s[4] }}</td>
+					<td>{{ s[5] }}</td>
+					<td>{{ s[6] }}</td>
+					<td>{{ s[7] }}</td>
+					<td>{{ s[8] }}</td>
+					<td>{{ s[9] }}</td>
+					</tr>
+                {% endfor %}    
+            </tbody>
+        </table>
+    </body>
+</html>
+
